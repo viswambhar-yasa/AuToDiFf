@@ -44,6 +44,5 @@ array(415.4287934927351)
 < autodiff.core.ops.Add object at 0x7fe9125ecc18>
 >>> x_grad()
 array(407.4287934927351)
->>> z.plot_comp_graph()
 ```
 This project is inspiried from "https://github.com/bgavran/autodiff" and few function are taken from that repo.
