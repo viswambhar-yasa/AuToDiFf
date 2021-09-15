@@ -28,5 +28,22 @@ the solution of the differential equation.
 2.Execute pytest \filename.py (eg. pytest tests_ops.py)
 
 ## External Packages Required apriori: Numpy and Matplotlib and sys 
+Example usage:
 
+```python
+>>> import autodiff as ad
+>>> x = ad.Variable(3, name="x")
+>>> y = ad.Variable(4, name="y")
+>>> z = x * y + ad.Exp(x + 3)
+>>> z
+< autodiff.core.ops.Add object at 0x7fe91284f080>
+>>> z()
+array(415.4287934927351)
+>>> x_grad = ad.grad(z, [x])[0]
+>>> x_grad
+< autodiff.core.ops.Add object at 0x7fe9125ecc18>
+>>> x_grad()
+array(407.4287934927351)
+>>> z.plot_comp_graph()
+```
 This project is inspiried from "https://github.com/bgavran/autodiff" and few function are taken from that repo.
