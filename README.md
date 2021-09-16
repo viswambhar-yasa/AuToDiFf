@@ -1,5 +1,5 @@
 # AuToDiFf
-## Neural Network which performs calculate derivates and solve PDEs
+## Neural Network which calculates derivates and solve PDEs
 
 Machine learning is used as advance curve fitting tool, i.e We fit a
 curve amongst the known data points to know hitherto unknown data points
