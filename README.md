@@ -21,10 +21,12 @@ the solution of the differential equation.
 
 ## How to install the Package?
 1.Navigate to the folder containing the "setup.py" file
+
 2.Execute the command "pip install ."
 
 ## How to run the test cases?
 1.Navigate to the folder containing the files of test cases(named with suffix tests_)
+
 2.Execute pytest \filename.py (eg. pytest tests_ops.py)
 
 ## External Packages Required apriori: Numpy and Matplotlib and sys 
